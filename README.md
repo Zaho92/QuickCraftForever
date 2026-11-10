@@ -1,3 +1,5 @@
+<img src="assets/logo.png" alt="QuickCraft Forever" width="128" align="right">
+
 # QuickCraft Forever
 
 A profession bar for **WoW: Forever**. Your professions sit on one small bar, and the recipes you use

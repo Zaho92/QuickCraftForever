@@ -9,7 +9,7 @@
 ## X-Website: https://github.com/Zaho92/QuickCraftForever
 ## SavedVariables: QuickCraftForeverDB
 ## OptionalDeps: EllesmereUI
-## IconTexture: Interface\Icons\INV_Misc_Gear_01
+## IconTexture: Interface\AddOns\QuickCraftForever\Media\icon.tga
 ## AddonCompartmentFunc: QuickCraftForever_OnAddonCompartmentClick
 
 Locales\enUS.lua

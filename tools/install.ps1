@@ -18,6 +18,8 @@ New-Item -ItemType Directory -Path $target | Out-Null
 foreach ($file in 'QuickCraftForever.toc', 'QuickCraftForever.lua', 'LICENSE', 'CHANGELOG.md') {
     Copy-Item -LiteralPath (Join-Path $repo $file) -Destination $target
 }
-Copy-Item -LiteralPath (Join-Path $repo 'Locales') -Destination $target -Recurse
+foreach ($dir in 'Locales', 'Media') {
+    Copy-Item -LiteralPath (Join-Path $repo $dir) -Destination $target -Recurse
+}
 
 Write-Host "Installed to $target. Type /reload in the game (a newly added addon needs one restart of the game)."
