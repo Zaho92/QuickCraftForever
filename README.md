@@ -5,6 +5,8 @@
 A profession bar for **WoW: Forever**. Your professions sit on one small bar, and the recipes you use
 most are one hover and one click away, without opening the profession window.
 
+![QuickCraft Forever](assets/showcase.png)
+
 ## What it does
 
 - **One icon per profession**, with a skill progress bar and the skill number (for example `31/75`).
