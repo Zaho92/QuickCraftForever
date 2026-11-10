@@ -1,0 +1,4 @@
+# Local backups and build output
+/.old/
+/.release/
+*.zip

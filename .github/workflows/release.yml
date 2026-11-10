@@ -1,0 +1,26 @@
+name: Release
+
+# A tag like v1.0.0 packages the addon and uploads it to CurseForge, Wago Addons and GitHub Releases.
+# CurseForge and Wago need the project IDs in QuickCraftForever.toc (X-Curse-Project-ID, X-Wago-ID) and
+# the repository secrets CF_API_KEY and WAGO_API_TOKEN. Without them the packager skips that upload
+# and still attaches the zip to the GitHub release.
+on:
+  push:
+    tags: ["v*"]
+
+permissions: {}
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: BigWigsMods/packager@v2
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}

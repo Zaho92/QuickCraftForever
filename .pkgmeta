@@ -1,0 +1,10 @@
+package-as: QuickCraftForever
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - README.md
+  - tools
+  - .github

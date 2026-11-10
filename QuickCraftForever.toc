@@ -1,0 +1,17 @@
+## Interface: 16001
+## Title: QuickCraft Forever
+## Notes: A bar with your professions: skill progress on each icon, and your favorite recipes fan out on hover to craft one or all with a click.
+## Notes-deDE: Eine Leiste mit deinen Berufen: Skill-Fortschritt an jedem Symbol, und deine Favoriten-Rezepte klappen beim Hover aus und lassen sich mit einem Klick einzeln oder komplett herstellen.
+## Author: Zaho
+## Version: @project-version@
+## Category: Professions
+## X-License: MIT
+## X-Website: https://github.com/Zaho92/QuickCraftForever
+## SavedVariables: QuickCraftForeverDB
+## OptionalDeps: EllesmereUI
+## IconTexture: Interface\Icons\INV_Misc_Gear_01
+## AddonCompartmentFunc: QuickCraftForever_OnAddonCompartmentClick
+
+Locales\enUS.lua
+Locales\deDE.lua
+QuickCraftForever.lua
