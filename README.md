@@ -74,7 +74,10 @@ Type `/qc debug`, reproduce the problem, type `/qc dump`, then copy the text fro
 
 ## Languages
 
-English and German.
+English, German, French, Spanish, Italian, Portuguese (Brazil), Russian, Korean, Simplified Chinese and Traditional Chinese.
+
+English and German are written by the author. The other translations are machine-made and unreviewed;
+corrections are welcome as an issue or pull request (`Locales/`).
 
 ## License
 

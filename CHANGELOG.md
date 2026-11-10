@@ -15,4 +15,4 @@ First release.
 - Two looks, WoW Forever and EllesmereUI, each with or without a frame.
 - Options for scale, icon size, spacing, bar thickness, bar texture, bar color, font, font size and
   animation speed. Every number has a slider and a field to type into.
-- English and German.
+- English, German, French, Spanish, Italian, Portuguese (Brazil), Russian, Korean, Simplified Chinese and Traditional Chinese.

@@ -2,11 +2,21 @@
 ## Title: QuickCraft Forever
 ## Notes: A bar with your professions: skill progress on each icon, and your favorite recipes fan out on hover to craft one or all with a click.
 ## Notes-deDE: Eine Leiste mit deinen Berufen: Skill-Fortschritt an jedem Symbol, und deine Favoriten-Rezepte klappen beim Hover aus und lassen sich mit einem Klick einzeln oder komplett herstellen.
+## Notes-frFR: Une barre avec vos métiers : progression sur chaque icône, et vos recettes favorites se déploient au survol pour en fabriquer une ou toutes d'un clic.
+## Notes-esES: Una barra con tus profesiones: progreso en cada icono, y tus recetas favoritas se despliegan al pasar el ratón para fabricar una o todas con un clic.
+## Notes-esMX: Una barra con tus profesiones: progreso en cada icono, y tus recetas favoritas se despliegan al pasar el ratón para fabricar una o todas con un clic.
+## Notes-itIT: Una barra con le tue professioni: avanzamento su ogni icona, e le ricette preferite si aprono al passaggio del mouse per crearne una o tutte con un clic.
+## Notes-ptBR: Uma barra com suas profissões: progresso em cada ícone, e suas receitas favoritas se abrem ao passar o mouse para criar uma ou todas com um clique.
+## Notes-ruRU: Панель с вашими профессиями: прогресс навыка на каждом значке, а избранные рецепты раскрываются при наведении — изготовьте один или все одним щелчком.
+## Notes-koKR: 전문 기술을 한 바에 표시합니다. 아이콘마다 숙련도가 보이고, 마우스를 올리면 즐겨찾는 제조법이 펼쳐져 한 번의 클릭으로 제작할 수 있습니다.
+## Notes-zhCN: 将你的专业放在一条动作条上：每个图标显示技能进度，鼠标悬停时展开收藏的配方，点击即可制造一个或全部。
+## Notes-zhTW: 將你的專業技能放在一條快捷列上：每個圖示顯示技能進度，滑鼠懸停時展開最愛的配方，點擊即可製造一個或全部。
 ## Author: Zaho
 ## Version: @project-version@
 ## Category: Professions
 ## X-License: MIT
 ## X-Curse-Project-ID: 1796807
+## X-Wago-ID: aND9R46o
 ## X-Website: https://github.com/Zaho92/QuickCraftForever
 ## SavedVariables: QuickCraftForeverDB
 ## OptionalDeps: EllesmereUI
@@ -15,4 +25,12 @@
 
 Locales\enUS.lua
 Locales\deDE.lua
+Locales\frFR.lua
+Locales\esES.lua
+Locales\itIT.lua
+Locales\ptBR.lua
+Locales\ruRU.lua
+Locales\koKR.lua
+Locales\zhCN.lua
+Locales\zhTW.lua
 QuickCraftForever.lua
